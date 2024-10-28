@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<style>
+			.corner-img {
+			  position: absolute;
+			  top: 0px;
+			  right: 10px;
+			  width: 80px; /* Adjust the size as needed */
+			  z-index: 10;
+			}
+			.inverted-img {
+				filter: invert(1) brightness(2);
+			}
+			.inline-icon {
+				width: 50px;          /* Adjust the width as needed */
+				height: 30px;         /* Adjust the height as needed */
+				vertical-align: middle; /* Aligns the icon with the text */
+				margin-right: 50px;    /* Adds space between the icon and the text */
+			}
+		  </style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Getting Into Computers</h1>
+				</section>
+				<section>
+					<h2>Outline</h2>
+					<ul>
+						<li class="fragment">Folder structure</li>
+						<li class="fragment">Terminal</li>
+						<li class="fragment">Path Variable</li>
+						<li class="fragment"><img src="computer-intro/Visual_Studio_Code_icon.svg" class="inline-icon"> VSCode</li>
+						<li class="fragment"><img src="computer-intro/Markdown-mark.svg" class="inline-icon inverted-img"> Markdown</li>
+						<li class="fragment"><img src="computer-intro/Git-logo.svg" class="inline-icon"> Git</li>
+						<li class="fragment"><img src="computer-intro/Python-logo-notext.svg" class="inline-icon"> Python</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Folder Structure</h2>
+					<ul>
+						<li>Save things below your user</li>
+						<li>avoid OneDrive</li>
+						<li>mac is forward <pre>/</pre> and windows is backward <pre>\</pre></li>
+					</ul>
+				</section>
+				<section>
+					<section>
+						<h2>Terminal</h2>
+						<ul>
+							<li>A single "." means current folder<pre>cd .</pre></li>
+							<li>".." means up one folder<pre>cd ..</pre></li>
+							<li>"~" means the home folder<pre>cd ~</pre></li>
+							<li>"$" at the beginning of commands is just the prompt. Don't include it in the command.<pre>$ eval "$(ssh-agent -s)"</pre></li>
+						</ul>
+					</section>
+					<section>
+						<h2>Terminal</h2>
+						<ul>
+							<li>in windows, can go to terminal from file explorer</li>
+							<li>in windows and mac, can open file exloper/finder from terminal</li>
+							<li>full paths and relative paths</li>
+							<li>always in a certain folder</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Terminal</h2>
+						<ul>
+							<li>environment variables</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<h2>Path</h2>
+					<ul>
+						<li>tells the terminal (and other things) where to look for programs</li>
+					</ul>
+				</section>
+				<section>
+					<section data-auto-animate>
+						<h2>VSCode</h2>
+						<img src="computer-intro/Visual_Studio_Code_icon.svg">
+					</section>
+					<section data-auto-animate>
+						<h2>VSCode</h2>
+						<img src="computer-intro/Visual_Studio_Code_icon.svg" class="corner-img">
+						<ul>
+							<li class="fragment">Stands for "Visual Studio Code"</li>
+							<li class="fragment">Don't confuse it with "Visual Studio", which is different</li>
+							<li class="fragment">Free and doesn't require admin</li>
+							<li class="fragment">Command Pallette <pre>ctrl shift p</pre></li>
+							<li class="fragment">Always open to a folder</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section data-auto-animate>
+						<h2>Markdown</h2>
+						<img src="computer-intro/Markdown-mark.svg" class="inverted-img">
+					</section>
+					<section data-auto-animate>
+						<h2>Markdown</h2>
+						<img src="computer-intro/Markdown-mark.svg" class="inverted-img corner-img">
+						<ul>
+							<li class="fragment">File Extension is .md</li>
+							<li class="fragment">File Extensions in general</li>
+							<li class="fragment">Get the Cheat Sheet</li>
+							<li class="fragment">Open preview to side</li>
+							<li class="fragment">README.md</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section data-auto-animate>
+						<img src="computer-intro/Git-logo.svg">
+					</section>
+					<section data-auto-animate>
+						<h3>track changes</h3>
+						<img src="computer-intro/Git-logo.svg" class="corner-img">
+						<img src="computer-intro/diff.png">
+					</section>
+					<section data-auto-animate>
+						<h3>compare files</h3>
+						<img src="computer-intro/Git-logo.svg" class="corner-img">
+						<img src="computer-intro/compare-files.png">
+					</section>
+					<section data-auto-animate>
+						<h3>Git graph</h3>
+						<img src="computer-intro/Git-logo.svg" class="corner-img">
+						<img src="computer-intro/git-graph.png">
+					</section>
+					<section data-auto-animate>
+						<h3>GitHub</h3>
+						<img src="computer-intro/Git-logo.svg" class="corner-img">
+					</section>
+				</section>
+				<section>
+					<section data-auto-animate>
+						<h2>Python</h2>
+						<img src="computer-intro/Python-logo-notext.svg">
+					</section>
+					<section data-auto-animate>
+						<h3>Google Colab</h3>
+						<img src="computer-intro/Python-logo-notext.svg" class="corner-img">
+						<ul>
+							<li>Get started easily</li>
+							<li>Jupyter Notebooks</li>
+						</ul>
+						<img src="computer-intro/colab2.png">
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
